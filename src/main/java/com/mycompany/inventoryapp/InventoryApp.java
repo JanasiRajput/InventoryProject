@@ -22,7 +22,7 @@ public class InventoryApp {
     // Method 2
     public void alertLowStock(String item, int stock) {
         if (stock < 5) {
-            System.out.println("ALERT: Low stock for " + item);
+            System.out.println("ALERT: Low stock for these " + item);
 }
     }
 }
